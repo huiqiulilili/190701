@@ -1,0 +1,22 @@
+class Student2{
+    private String name;
+    private int age;
+    private char sex;
+    public Student2(){
+
+    }
+    public Student2(String name,int age,char sex){
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+    }
+    public void show(){
+        System.out.println("name = "+ name + "age = " + age + "sex = "+ age );
+    }
+}
+public class Practice1 {
+    public static void main(String[] args) {
+        Student2 s = new Student2();
+        s.show();
+    }
+}
