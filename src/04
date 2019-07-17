@@ -1,0 +1,32 @@
+public class Array {
+    public static void main(String[] args) {
+        /*int [] x = new int[3];
+        System.out.println("数组的长度为"+x.length);
+        x[0] = 1;
+        x[1] = 2;
+        x[2] = 3;
+        for(int i = 0;i < x.length;i ++){
+            System.out.println(x[i]);
+        }*/
+        int[] x = null;
+        x = new int[3];
+
+//        for (int i = 0; i < x.length; i++) {
+//            System.out.println(x[i]);
+//            }
+            x[0] = 1;
+            x[1] = 2;
+            x[2] = 3;
+//            System.out.println(".........");
+            for (int j = 0; j < x.length; j++) {
+                System.out.println(x[j]);
+            }
+            int[] temp = null;
+            temp = x;
+            temp[0] = 10;
+            for(int k = 0;k < x.length;k ++){
+                System.out.println(x[k]);
+            }
+        }
+    }
+
